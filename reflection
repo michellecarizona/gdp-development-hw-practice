@@ -1,0 +1,5 @@
+I broke down a data analysis workflow into steps, moving from loading data and calculating statistics to visualizing overall patterns and specific variable relationships.
+I learned how to clean up descriptive metrics like skewness by rounding numbers, converting them into formatted DataFrames, and pairing them with visual distribution plots.
+I discovered how to streamline a pairplot matrix using corner=True to eliminate redundant panels and replacing histogram bars with smooth density curves (diag_kind="kde").
+I learned that a correlation matrix heatmaps values from -1 to 1 to reveal linear relationship strengths, and how to format it cleanly using fixed scales (vmin/vmax) and number rounding (fmt=".2f").
+I upgraded a basic scatterplot by switching to sns.regplot to automatically plot a line of best fit, adding clean axis units, and using gridlines for easier data reading.
